@@ -3,7 +3,7 @@
 <!-- ![alt text](image-9.png)
 ![alt text](image-10.png) -->
 
-<div style="display: flex; justify-content: center;">
+<div style="display: flex; justify-content: space-evenly;">
     <img src="image-9.png" alt="Imagen 1" style="width: 45%">
     <img src="image-10.png" alt="Imagen 2" style="width: 45%">
 </div>
@@ -22,6 +22,7 @@ Registro de preguntas y aspectos interesantes que han surgido en las entrevistas
 <div style="display: flex; justify-content: center;">
     <img src="image-2.png" alt="Paradigmas de desarrollo de software" style="width: 60%">
 </div>
+
 #### ¿Qué son los paradigmas de desarrollo?
 Un paradigma de desarrollo en programación es un conjunto de principios, prácticas y patrones que guían la manera en que se diseña, desarrolla y estructura el código de un software. Esencialmente, representa una filosofía o enfoque particular para abordar problemas de programación.
 
