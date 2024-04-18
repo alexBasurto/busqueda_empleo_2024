@@ -3,9 +3,9 @@
 <!-- ![alt text](image-9.png)
 ![alt text](image-10.png) -->
 
-<div style="display: flex;">
-    <img src="image-9.png" alt="Imagen 1" style="width: 30%">
-    <img src="image-10.png" alt="Imagen 2" style="width: 30%">
+<div style="display: flex; justify-content: center;">
+    <img src="image-9.png" alt="Imagen 1" style="width: 45%">
+    <img src="image-10.png" alt="Imagen 2" style="width: 45%">
 </div>
 
 El objetivo de este repositorio es, a medida que avanzo en el proceso de búsqueda de empleo, registrar las distintas pruebas técnicas y las preguntas relevantes que se me hagan en entrevistas técnicas. Y documentar aquellas que considere más interesantes.
@@ -18,7 +18,10 @@ Registro de preguntas y aspectos interesantes que han surgido en las entrevistas
 --------------
 
 ### PARADIGMAS DE DESARROLLO
-![alt text](image-2.png)
+<!-- ![alt text](image-2.png) -->
+<div style="display: flex; justify-content: center;">
+    <img src="image-2.png" alt="Paradigmas de desarrollo de software" style="width: 60%">
+</div>
 #### ¿Qué son los paradigmas de desarrollo?
 Un paradigma de desarrollo en programación es un conjunto de principios, prácticas y patrones que guían la manera en que se diseña, desarrolla y estructura el código de un software. Esencialmente, representa una filosofía o enfoque particular para abordar problemas de programación.
 
