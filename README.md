@@ -1,11 +1,7 @@
 # BÚSQUEDA DE EMPLEO - 2024
-
-<!-- ![alt text](image-9.png)
-![alt text](image-10.png) -->
-
 <div style="display: flex; justify-content: space-evenly;">
-    <img src="image-9.png" alt="Imagen 1" style="width: 45%">
-    <img src="image-10.png" alt="Imagen 2" style="width: 45%">
+    <img src="image-9.png" alt="Programador desesperado" style="width: 45%">
+    <img src="image-10.png" alt="Programador desesperado" style="width: 45%">
 </div>
 
 El objetivo de este repositorio es, a medida que avanzo en el proceso de búsqueda de empleo, registrar las distintas pruebas técnicas y las preguntas relevantes que se me hagan en entrevistas técnicas. Y documentar aquellas que considere más interesantes.
@@ -19,9 +15,8 @@ Registro de preguntas y aspectos interesantes que han surgido en las entrevistas
 
 ### PARADIGMAS DE DESARROLLO
 <!-- ![alt text](image-2.png) -->
-<div style="display: flex; justify-content: center;">
-    <img src="image-2.png" alt="Paradigmas de desarrollo de software" style="width: 60%">
-</div>
+
+<img src="image-2.png" alt="Paradigmas de desarrollo de software" style="width: 80%">
 
 #### ¿Qué son los paradigmas de desarrollo?
 Un paradigma de desarrollo en programación es un conjunto de principios, prácticas y patrones que guían la manera en que se diseña, desarrolla y estructura el código de un software. Esencialmente, representa una filosofía o enfoque particular para abordar problemas de programación.
@@ -68,7 +63,8 @@ Cada paradigma tiene sus propias fortalezas y debilidades, y la elección del pa
 --------------
 
 ### ANALISIS DEL CÓDIGO ESTÁTICO
-![alt text](image-3.png)
+<img src="image-3.png" alt="Analisis de código estático del software" style="width: 80%">
+
 #### ¿Qué es el análisis del código estático?
 El análisis estático de código es un proceso automatizado que examina el código fuente sin ejecutarlo. Identifica posibles errores, vulnerabilidades de seguridad, malas prácticas de codificación y oportunidades de mejora, todo ello mediante el escaneo del código en busca de patrones específicos predefinidos. Ayuda a mejorar la calidad del código, a reducir errores y a garantizar la consistencia y conformidad con estándares de codificación.
 
@@ -97,7 +93,8 @@ Estas herramientas de análisis estático son fundamentales para mejorar la cali
 --------------
 
 ### CONTROL DE VERSIONES
-![alt text](image-4.png)
+<img src="image-4.png" alt="Control de versiones" style="width: 80%">
+
 #### ¿Qué es el control de versiones?
 El control de versiones es un sistema que registra cambios en archivos y carpetas a lo largo del tiempo, lo que permite rastrear y administrar diferentes versiones de un proyecto de software. Facilita la colaboración entre equipos, ayuda a mantener un historial de cambios, y permite revertir a versiones anteriores si es necesario. Git es un ejemplo popular de sistema de control de versiones.
 
@@ -178,7 +175,8 @@ La elección del enfoque de flujo de trabajo depende de una variedad de factores
 --------------
 
 ### DOCUMENTACIÓN
-![alt text](image-5.png)
+<img src="image-5.png" alt="Documentación de software" style="width: 80%">
+
 #### ¿Por qué es importante la DOCUMENTACIÓN en el desarrollo de software?
 
 La documentación en el desarrollo de software es crucial para garantizar la comprensión, mantenibilidad y escalabilidad de los proyectos. Hay varios tipos de documentación que pueden ser generados manualmente o automáticamente, cada uno con sus propias ventajas:
@@ -250,7 +248,8 @@ En resumen, la documentación en el desarrollo de software, ya sea generada manu
 --------------
 
 ### TESTING
-![alt text](image-6.png)
+<img src="image-6.png" alt="Testing de software" style="width: 80%">
+
 #### ¿Qué es el tésting? ¿Qué aporta?
 El testing en desarrollo de software es el proceso de verificar y validar el comportamiento de un programa para garantizar que cumpla con los requisitos y expectativas establecidos. Se realizan pruebas sistemáticas para identificar errores y garantizar la calidad del software antes de su lanzamiento.
 
