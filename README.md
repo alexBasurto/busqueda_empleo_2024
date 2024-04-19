@@ -141,11 +141,11 @@ Branches principales:
 - Master: Contiene el código en producción.
 - Develop: Representa la integración continua del código en desarrollo.
 - Branches de funcionalidad:
-- Feature: Se ramifican desde develop y se utilizan para desarrollar nuevas características. Una vez completadas, se fusionan nuevamente en develop.
+    - Feature: Se ramifican desde develop y se utilizan para desarrollar nuevas características. Una vez completadas, se fusionan nuevamente en develop.
 - Branches de publicación:
-- Release: Se ramifican desde develop para preparar una nueva versión para el lanzamiento. Se realizan pruebas finales y correcciones de errores. Una vez lista, se fusiona en master y develop.
+    - Release: Se ramifican desde develop para preparar una nueva versión para el lanzamiento. Se realizan pruebas finales y correcciones de errores. Una vez lista, se fusiona en master y develop.
 Branches de mantenimiento:
-- Hotfix: Se ramifican desde master para corregir rápidamente errores críticos en producción. Una vez completados, se fusionan en master y develop.
+    - Hotfix: Se ramifican desde master para corregir rápidamente errores críticos en producción. Una vez completados, se fusionan en master y develop.
 
 
 ***Flujo de trabajo basado en troncos:***
@@ -243,6 +243,7 @@ La documentación en el desarrollo de software es crucial para garantizar la com
 - Promueve la Colaboración: Facilita la colaboración entre miembros del equipo al proporcionar una referencia común y clara para el trabajo.
 - Acelera el Aprendizaje: Ayuda a los nuevos miembros del equipo a familiarizarse rápidamente con el proyecto y a contribuir de manera efectiva.
 - Apoya el Cumplimiento y la Auditoría: Proporciona un registro de los requisitos, decisiones de diseño, pruebas y cambios realizados en el software, lo que puede ser útil para fines de cumplimiento y auditoría.
+
 En resumen, la documentación en el desarrollo de software, ya sea generada manualmente o automáticamente, es esencial para asegurar la calidad, mantenibilidad y éxito a largo plazo de los proyectos de software.
 
 --------------
@@ -315,22 +316,22 @@ Tipo de Testing: Pruebas de API y servicios web.
 Tipo de Testing: Pruebas unitarias en Java (compatibilidad con versiones anteriores de JUnit).
 Ámbitos de Uso: Utilizado en proyectos de desarrollo de software en Java para realizar pruebas unitarias con versiones anteriores de JUnit.
 - **Para JavaScript**:
-        - **Mocha**:
-        Descripción: Mocha es un popular framework de pruebas para JavaScript que proporciona una estructura flexible y potente para escribir pruebas unitarias y de integración.
-        - **Jest**:
-        Descripción: Jest es un framework de pruebas desarrollado por Facebook, diseñado para ser fácil de configurar y utilizar. Es conocido por su velocidad y capacidad para ejecutar pruebas de forma paralela.
-        - **Jasmine**:
-        Descripción: Jasmine es otro framework de pruebas para JavaScript que se centra en la legibilidad y expresividad del código de prueba. Proporciona una sintaxis de estilo BDD (Behavior-Driven Development) que resulta intuitiva para muchos desarrolladores.
-        - **Cypress**:
-        Descripción: Cypress es una herramienta de prueba de extremo a extremo para aplicaciones web modernas. Permite escribir y ejecutar pruebas automatizadas en un entorno controlado y ofrece herramientas avanzadas para depurar y entender el comportamiento de las pruebas.
+    - **Mocha**:
+    Descripción: Mocha es un popular framework de pruebas para JavaScript que proporciona una estructura flexible y potente para escribir pruebas unitarias y de integración.
+    - **Jest**:
+    Descripción: Jest es un framework de pruebas desarrollado por Facebook, diseñado para ser fácil de configurar y utilizar. Es conocido por su velocidad y capacidad para ejecutar pruebas de forma paralela.
+    - **Jasmine**:
+    Descripción: Jasmine es otro framework de pruebas para JavaScript que se centra en la legibilidad y expresividad del código de prueba. Proporciona una sintaxis de estilo BDD (Behavior-Driven Development) que resulta intuitiva para muchos desarrolladores.
+    - **Cypress**:
+    Descripción: Cypress es una herramienta de prueba de extremo a extremo para aplicaciones web modernas. Permite escribir y ejecutar pruebas automatizadas en un entorno controlado y ofrece herramientas avanzadas para depurar y entender el comportamiento de las pruebas.
 
 - **Para TypeScript:**
-        - **Jest (con soporte para TypeScript):**
-        Descripción: Jest es compatible con TypeScript y puede utilizarse fácilmente para escribir pruebas en proyectos que utilizan TypeScript. Puede manejar archivos TypeScript directamente o puede utilizarse en combinación con herramientas como ts-jest para mejorar la integración con TypeScript.
-        - **Mocha con Chai y Sinon (con soporte para TypeScript):**
-        Descripción: Mocha es compatible con TypeScript y puede combinarse con las bibliotecas de aserciones Chai y los mocks y stubs Sinon para escribir pruebas robustas y expresivas en proyectos de TypeScript.
-        - **Jasmine (con soporte para TypeScript):**
-        Descripción: Jasmine también es compatible con TypeScript y puede utilizarse para escribir pruebas en proyectos que utilizan este lenguaje. Proporciona una sintaxis de estilo BDD que puede resultar intuitiva para muchos desarrolladores.
+    - **Jest (con soporte para TypeScript):**
+    Descripción: Jest es compatible con TypeScript y puede utilizarse fácilmente para escribir pruebas en proyectos que utilizan TypeScript. Puede manejar archivos TypeScript directamente o puede utilizarse en combinación con herramientas como ts-jest para mejorar la integración con TypeScript.
+    - **Mocha con Chai y Sinon (con soporte para TypeScript):**
+    Descripción: Mocha es compatible con TypeScript y puede combinarse con las bibliotecas de aserciones Chai y los mocks y stubs Sinon para escribir pruebas robustas y expresivas en proyectos de TypeScript.
+    - **Jasmine (con soporte para TypeScript):**
+    Descripción: Jasmine también es compatible con TypeScript y puede utilizarse para escribir pruebas en proyectos que utilizan este lenguaje. Proporciona una sintaxis de estilo BDD que puede resultar intuitiva para muchos desarrolladores.
 
 
 Estos son solo algunos ejemplos de programas y frameworks de testing que se utilizan en diferentes contextos y para diferentes tipos de pruebas. La elección del programa o framework adecuado dependerá del tipo de testing que necesites realizar, el lenguaje de programación que estés utilizando y las necesidades específicas de tu proyecto.
@@ -351,7 +352,39 @@ En resumen, el testing es importante porque contribuye significativamente a la c
 
 --------------
 
-## Registro de pruebas técnicas
+## ASPECTOS CONCRETOS DE JAVASCRIPT
+### Funciones generadoras y YIELD
+Una función generadora en JavaScript es una función especial que puede pausar su ejecución y luego continuar desde donde se detuvo. Esto se logra utilizando la palabra clave `yield`, que permite devolver un valor y pausar la ejecución de la función hasta que se solicite el próximo valor.
+
+Cuando se llama a una función generadora, esta no se ejecuta completamente de una sola vez como una función regular. En su lugar, devuelve un objeto iterador que puede ser utilizado para iterar sobre los valores producidos por la función generadora, y cada vez que se alcanza una declaración `yield`, la función se pausa y el valor es devuelto al iterador.
+
+Las funciones generadoras son útiles cuando necesitas generar secuencias de valores de manera eficiente, especialmente cuando los valores pueden ser generados de manera perezosa (es decir, solo cuando son necesarios) o cuando se trabaja con grandes conjuntos de datos que no caben en la memoria.
+
+Aquí hay un ejemplo típico de cómo se puede usar una función generadora para generar una secuencia infinita de números pares:
+
+```javascript
+function* generarNumerosPares() {
+  let numero = 0;
+  while (true) {
+    yield numero;
+    numero += 2;
+  }
+}
+
+// Creamos un iterador para la función generadora
+const iterador = generarNumerosPares();
+
+// Iteramos sobre los primeros 5 números pares
+for (let i = 0; i < 5; i++) {
+  console.log(iterador.next().value);
+}
+```
+
+En este ejemplo, la función `generarNumerosPares` es una función generadora que produce una secuencia infinita de números pares. Utiliza un bucle `while(true)` para generar números pares de manera infinita y la palabra clave `yield` para pausar la ejecución y devolver el número actual en cada iteración. Luego, creamos un iterador para la función generadora y utilizamos el método `next()` para obtener los valores uno a uno. La ejecución del bucle `for` nos permite imprimir los primeros 5 números pares generados por la función.
+
+--------------
+
+## REGISTRO DE PRUEBAS TÉCNICAS
 Aspectos más relevantes que me he encontrado en las distintas pruebas técnicas
 
 -   Empresa 1: desarrollo con HTML-CSS planos y JS Vanila de dos ejercicios:
